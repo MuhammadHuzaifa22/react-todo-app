@@ -58,8 +58,8 @@ const deleteTodo = (index) => {
         <select className="form-select mx-auto " style={{width:'200px'}} id="filterSelect" 
          value={filterSelectValue}
          onChange={handleSelectChange}>
-          <option value="2">Oldest</option>
           <option value="1">Newest</option>
+          <option value="2">Oldest</option>
         </select>
 </div>: null}
   
